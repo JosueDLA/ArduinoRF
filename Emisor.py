@@ -8,7 +8,7 @@ class Ventana(Frame):
 	def __init__(self, master):
 		"""Inicializar Frame"""
 		super().__init__(master)
-		master.title("Proyecto Final IA")
+		master.title("Emisor")
 
 		self.grid()
 		self.crearWidgets()
